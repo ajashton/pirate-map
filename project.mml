@@ -1,0 +1,125 @@
+{
+  "bounds": [
+    -180,
+    -85.0511,
+    180,
+    85.0511
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png8",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 6,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "labels.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "id": "bath",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-bathymetry.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "bath"
+    },
+    {
+      "geometry": "linestring",
+      "id": "grat",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-graticules-1.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "grat"
+    },
+    {
+      "geometry": "linestring",
+      "id": "grat10",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-graticules-10.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "grat10"
+    },
+    {
+      "geometry": "linestring",
+      "id": "states",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-1-states-provinces-lines.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "states"
+    },
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "polygon",
+      "id": "country-name",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "country-name"
+    },
+    {
+      "geometry": "point",
+      "id": "cities",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-populated-places-simple.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "cities"
+    },
+    {
+      "geometry": "polygon",
+      "id": "paper",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-900913-bounding-box.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "paper"
+    },
+    {
+      "geometry": "linestring",
+      "id": "marine_label",
+      "class": "",
+      "Datasource": {
+        "file": "http://gis-data.s3.amazonaws.com/ds/marine-labels-1.0.4.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "marine_label"
+    }
+  ],
+  "name": "Pirate Map",
+  "description": "",
+  "attribution": ""
+}
