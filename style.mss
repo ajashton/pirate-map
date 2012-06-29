@@ -39,10 +39,10 @@ Map { background-color: @water; }
 }
 
 #paper::grain {
-  polygon-pattern-file: url(/home/aj/Dropbox/aj_assets/texture/noise512.png);
+  polygon-pattern-file: url(img/noise512.png);
   polygon-pattern-composite-operation: soft-light;
 }
 #paper::folds {
-  polygon-pattern-file: url(/home/aj/src/tm-master/examples/geography-class/textures/paperfolds_512.png);
+  polygon-pattern-file: url(img/paperfolds_512.png);
   polygon-pattern-composite-operation: color-burn;
 }
