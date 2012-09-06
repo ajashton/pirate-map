@@ -3,7 +3,7 @@
 #country-name[TYPE != 'Lease'] {
   text-face-name: "Mutlu  Ornamental";
   text-fill:#363330;
-  text-composite-operation: color-burn;
+  text-comp-op: color-burn;
   text-size:9;
   text-wrap-width:20;
   text-name:"''"; /* hackish? */
@@ -40,7 +40,7 @@
 #cities[WORLDCITY=1][zoom>4] {
   text-name: "[NAME]";
   text-fill: #363330;
-  text-composite-operation: color-burn;
+  text-comp-op: color-burn;
   text-face-name: "Mutlu  Ornamental";
   text-size: 11;
 }
@@ -48,7 +48,7 @@
 #cities[ADM0CAP=1][zoom>3] {
   text-name: "[NAME]";
   text-fill: #363330;
-  text-composite-operation: color-burn;
+  text-comp-op: color-burn;
   text-face-name: "Mutlu  Ornamental";
   text-size: 11;
 }
@@ -61,7 +61,7 @@
 #marine_label[LABELRANK=1][zoom>=3][zoom<=5] {
   text-face-name: "Mutlu  Ornamental";
   text-fill: @marine_text;
-  text-composite-operation: color-burn;
+  text-comp-op: color-burn;
   text-allow-overlap: true;
   text-name: "[NAME]";
   text-wrap-width:20 * @ts;
@@ -89,7 +89,7 @@
 #marine_label[LABELRANK=2][zoom>=3][zoom<=6] {
   text-face-name: "Mutlu  Ornamental";
   text-fill: @marine_text;
-  text-composite-operation: color-burn;
+  text-comp-op: color-burn;
   text-allow-overlap: true;
   text-name: "[NAME]";
   text-wrap-width:40 * @ts;
@@ -124,7 +124,7 @@
 #marine_label[LABELRANK=3][zoom>=3][zoom<=6] {
   text-face-name: "Mutlu  Ornamental";
   text-fill: @marine_text;
-  text-composite-operation: color-burn;
+  text-comp-op: color-burn;
   text-allow-overlap: true;
   text-name: "[NAME]";
   [PLACEMENT='point'] { text-placement:point; }
@@ -161,7 +161,7 @@
 #marine_label[LABELRANK=4][zoom>=4][zoom<=6] {
   text-face-name: "Mutlu  Ornamental";
   text-fill: @marine_text;
-  text-composite-operation: color-burn;
+  text-comp-op: color-burn;
   text-allow-overlap: true;
   text-name: "[NAME]";
   text-wrap-width:35 * @ts;
@@ -189,7 +189,7 @@
 #marine_label[LABELRANK=5][zoom>=5][zoom<=7] {
   text-face-name: "Mutlu  Ornamental";
   text-fill: @marine_text;
-  text-composite-operation: color-burn;
+  text-comp-op: color-burn;
   text-allow-overlap: true;
   text-name: "[NAME]";
   [PLACEMENT='point'] { text-placement:point; }
@@ -219,7 +219,7 @@
 #marine_label[LABELRANK=6][zoom>=6][zoom<=7] {
   text-face-name: "Mutlu  Ornamental";
   text-fill: @marine_text;
-  text-composite-operation: color-burn;
+  text-comp-op: color-burn;
   text-allow-overlap: true;
   text-name: "[NAME]";
   [PLACEMENT='point'] { text-placement:point; }

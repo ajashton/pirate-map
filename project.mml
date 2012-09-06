@@ -112,13 +112,18 @@
       "id": "marine_label",
       "class": "",
       "Datasource": {
-        "file": "http://gis-data.s3.amazonaws.com/ds/marine-labels-1.0.4.zip"
+        "file": "http://gis-data.s3.amazonaws.com/ds/marine-labels-1.0.4.zip",
+        "id": "marine_label",
+        "project": "pirate-map",
+        "srs": ""
       },
       "srs-name": "autodetect",
       "srs": "",
       "name": "marine_label"
     }
   ],
+  "scale": 1,
+  "metatile": 2,
   "name": "Pirate Map",
   "description": "",
   "attribution": ""
