@@ -25,7 +25,8 @@
       "id": "bath",
       "class": "",
       "Datasource": {
-        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-bathymetry.zip"
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-bathymetry.zip",
+        "type": "shape"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -36,7 +37,8 @@
       "id": "grat",
       "class": "",
       "Datasource": {
-        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-graticules-1.zip"
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-graticules-1.zip",
+        "type": "shape"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -47,7 +49,8 @@
       "id": "grat10",
       "class": "",
       "Datasource": {
-        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-graticules-10.zip"
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-graticules-10.zip",
+        "type": "shape"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -58,7 +61,8 @@
       "id": "states",
       "class": "",
       "Datasource": {
-        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-1-states-provinces-lines.zip"
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-1-states-provinces-lines.zip",
+        "type": "shape"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -79,7 +83,8 @@
       "id": "country-name",
       "class": "",
       "Datasource": {
-        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip"
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -90,7 +95,8 @@
       "id": "cities",
       "class": "",
       "Datasource": {
-        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-populated-places-simple.zip"
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-populated-places-simple.zip",
+        "type": "shape"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -101,7 +107,8 @@
       "id": "paper",
       "class": "",
       "Datasource": {
-        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-900913-bounding-box.zip"
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-900913-bounding-box.zip",
+        "type": "shape"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -113,6 +120,7 @@
       "class": "",
       "Datasource": {
         "file": "http://gis-data.s3.amazonaws.com/ds/marine-labels-1.0.4.zip",
+        "type": "shape",
         "id": "marine_label",
         "project": "pirate-map",
         "srs": ""
