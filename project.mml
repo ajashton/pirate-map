@@ -120,13 +120,10 @@
       "class": "",
       "Datasource": {
         "file": "http://gis-data.s3.amazonaws.com/ds/marine-labels-1.0.4.zip",
-        "type": "shape",
-        "id": "marine_label",
-        "project": "pirate-map",
-        "srs": ""
+        "type": "shape"
       },
-      "srs-name": "autodetect",
-      "srs": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "name": "marine_label"
     }
   ],
